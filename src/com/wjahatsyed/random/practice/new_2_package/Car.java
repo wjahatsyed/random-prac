@@ -8,4 +8,10 @@ public abstract class Car {
     public void startEngine() {
         System.out.println("Starting engine.");
     }
+
+    public abstract void goForward();
+
+    public abstract void reverse();
+
+    public abstract void turn(int whichWay);
 }
